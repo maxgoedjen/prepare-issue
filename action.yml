@@ -1,0 +1,24 @@
+name: 'Your name here'
+description: 'Provide a description here'
+author: 'Your name or organization here'
+inputs:
+  token:
+    required: true
+    description: 'GitHub Token'
+    default: 'default value if applicable'
+  project:
+    required: false
+    description: 'Project to add the issue to.'
+    default: 'default value if applicable'
+  project_column:
+    required: false
+    description: 'Column ID of the project to add the issue to.'
+    default: 'default value if applicable'
+  milestone:
+    required: true
+    description: 'Milestone to add the issue to.'
+    default: 'default value if applicable'
+  
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

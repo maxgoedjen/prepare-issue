@@ -1,0 +1,14 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "npm run build && npm run package"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "npm test"
+    }
+  },
+  "buildBeforeRunning" : true,
+  "identifier" : "696C650B-9F4D-433E-8217-817DDDE32499"
+}
